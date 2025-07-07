@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taxpayer Receipt</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background: #ffdd00;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .container {
+      width: 600px;
+      margin: 20px auto;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    .center {
+      text-align: center;
+    }
+    .line {
+      border-bottom: 1px solid #ccc;
+      margin: 10px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    .total {
+      font-weight: bold;
+    }
+    .qr {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .button {
+      display: block;
+      width: 150px;
+      margin: 20px auto;
+      padding: 10px;
+      background: yellow;
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    TAXPAYER RECEIPT VERIFICATION PORTAL
+  </div>
+
+  <div class="container">
+    <div class="center">
+      <strong>FRANCIS FAUSTINI MAERERE</strong><br>
+      PO BOX 602<br>
+      MOBILE: 0652079678<br>
+      TIN: 109284039<br>
+      VRN: NOT REGISTERED<br>
+      SERIAL No.: T5070131517146<br>
+      UIN: 011351K739ST5070131517146D432734536107146<br>
+      TAX OFFICE: Tax Office Dodoma
+    </div>
+
+    <div class="line"></div>
+
+    <strong>CUSTOMER NAME:</strong> MBALAWALA SECONDARY SCHOOL<br>
+    <strong>CUSTOMER TYPE:</strong> TAXPAYER IDENTIFICATION NUMBER<br>
+    <strong>CUSTOMER ID:</strong><br>
+    <strong>CUSTOMER MOBILE:</strong><br>
+
+    <div class="line"></div>
+
+    <strong>RECEIPT NO.:</strong> 420<br>
+    <strong>Z NUMBER:</strong> 13751<br>
+    <strong>RECEIPT DATE:</strong> 2025-07-08<br>
+    <strong>RECEIPT TIME:</strong> 14:29:53
+
+    <table border="1">
+      <tr>
+        <th>Description</th>
+        <th>Qty</th>
+        <th>Amount</th>
+      </tr>
+      <tr>
+        <td>ICT EQUIPMENT SUPPLY</td>
+        <td>1</td>
+        <td>2,450,000.00</td>
+      </tr>
+      <tr>
+        <td class="total">TOTAL EXCL OF TAX:</td>
+        <td></td>
+        <td>2,450,000.00</td>
+      </tr>
+      <tr>
+        <td class="total">TOTAL TAX:</td>
+        <td></td>
+        <td>0.00</td>
+      </tr>
+      <tr>
+        <td class="total">TOTAL INCL OF TAX:</td>
+        <td></td>
+        <td>2,450,000.00</td>
+      </tr>
+    </table>
+
+    <div class="qr">
+      <p><strong>RECEIPT VERIFICATION CODE</strong><br>
+      BAG1D429</p>
+      <a href="https://verify.tra.go.tz/BA681D429_104553" target="_blank">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://verify.tra.go.tz/BA681D429_104553" alt="Receipt QR Code">
+      </a>
+    </div>
+
+    <div class="center">
+      *** END OF LEGAL RECEIPT ***
+    </div>
+
+    <a href="#" class="button">Print Receipt</a>
+
+    <div class="footer">
+      © 2025 - TRA Receipt Verification Portal
+    </div>
+  </div>
+</body>
+</html>
